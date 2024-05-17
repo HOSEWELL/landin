@@ -1,0 +1,50 @@
+.topnav-list ul li{
+    font-weight:600;
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
+    float: right;
+    padding: 20px;
+}
+.topnav-list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.topnav-list{
+    width: 75%;
+    list-style: none;
+    float: right;
+}
+.button{
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    width: 20%;
+}
+body{
+    padding:5% 20%;
+    background-image: linear-gradient(to right,rgb(226, 157, 29));
+}
+.h1{
+    font-weight: 600;
+    font-size: 80px;
+}
+nav{
+    list-style: none;
+    font-weight: 600;
+}
+p{
+    font-weight: 600;
+}
+.contact{
+    padding: 1px;
+    border-radius: 20px;
+}
+img{
+    float: right;
+}
+.fa-brands{
+    padding: 10px;
+}
