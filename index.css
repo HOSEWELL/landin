@@ -1,35 +1,28 @@
 .topnav-list ul li{
     font-weight:600;
-    justify-content: space-between;
     display: flex;
     list-style: none;
     float: right;
-    padding: 20px;
+    padding-right: 70px;
 }
 .topnav-list{
-    display: flex;
-    justify-content: space-between;
     list-style: none;
-}
-.topnav-list{
-    width: 75%;
-    list-style: none;
-    float: right;
 }
 .button{
     border-radius: 10px;
     background-color: blue;
     color: white;
     padding: 10px;
-    width: 20%;
+    width: 25%;
 }
 body{
-    padding:5% 20%;
-    background-image: linear-gradient(to right,rgb(226, 157, 29));
+    background-image: linear-gradient(to right,rgb(138, 119, 138),rgb(189, 181, 226));
+    margin: 0% 5%;
 }
 .h1{
     font-weight: 600;
-    font-size: 80px;
+    font-size: 90px;
+    padding: top 20%;
 }
 nav{
     list-style: none;
@@ -39,12 +32,29 @@ p{
     font-weight: 600;
 }
 .contact{
-    padding: 1px;
     border-radius: 20px;
 }
 img{
-    float: right;
+  width: 110%;
 }
-.fa-brands{
+i{
+    font-size: 40px;
+    justify-content: space-between;
     padding: 10px;
+}
+ul{
+    height: 20px;
+}
+.content{
+padding-top: 1px;
+}
+main{
+    padding-top: 10%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border: 1px solid transparent;
+}
+.logo{
+    font-size: 100px;
+    font-weight: 900;
 }
